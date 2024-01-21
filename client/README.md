@@ -1,70 +1,224 @@
-# Getting Started with Create React App
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/abhishekprajapati29/assign-project)
+  ![GitHub stars](https://img.shields.io/github/stars/abhishekprajapati29/assign-project?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/abhishekprajapati29/assign-project?style=social)
+  [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/abhishekprajapati29/assign-project/commits/main)
+  [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://assign-project.onrender.com/)
+  [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/abhishekprajapati29/)
+  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <br />
+  <br />
+  
+  <img src="./public/logo.png" />
 
-## Available Scripts
+  <h2 align="center">Assign Project - Project Management Application</h2>
 
-In the project directory, you can run:
+Welcome to our innovative Project Management Application! This powerful tool is designed to revolutionize the way you manage projects, tasks, and team collaboration. Seamlessly combining efficiency and user-friendly design, our application brings together essential project management features to enhance your workflow.
 
-### `yarn start`
+<a href="https://assign-project.onrender.com/"><strong>➥ Project Live</strong></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br />
 
-### `yarn test`
+## 🔥 Website Preview
+<img src="./public/assign-project.gif" width="900">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Key Features
+⚡️ **Dashboard**: Get a comprehensive overview of your projects, tasks, and deadlines in one centralized dashboard.\
+⚡️ **Task Tracking**: Effortlessly monitor the progress of individual tasks and ensure every team member stays on track.\
+⚡️ **Bug Reporting**: Quickly identify and report bugs, facilitating swift resolution and maintaining project integrity.\
+⚡️ **File Storage**: Organize and access project-related files with ease, ensuring documents are readily available when needed.\
+⚡️ **Activity Tracking**: Visualize project progress through a dynamic activity tracking system, turning progress into a visual masterpiece.
 
-### `yarn build`
+## 💡 MERN Tech Stack
+- [MongoDB](https://www.mongodb.com/): A NoSQL database that provides high performance, high availability, and easy scalability.
+- [Express.js](https://expressjs.com/): A fast, unopinionated, minimalist web framework for Node.js, providing a robust set of features.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces, enabling the creation of dynamic and interactive web applications.
+- [Node.js](https://nodejs.org/): A JavaScript runtime built on Chrome's V8 JavaScript engine, facilitating server-side development.
+- And more...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌐 NPM Package
+| Name                                       | Version   | Description                                               |
+| ------------------------------------------ | --------- | --------------------------------------------------------- |
+| React                                      | ^18.2.0   | A JavaScript library for building user interfaces.         |
+| Material-UI                                | ^5.12.3   | A popular React UI framework implementing Material Design. |
+| React Redux                                | ^8.1.3    | A predictable state container for JavaScript apps.        |
+| React Router DOM                           | 6.11.0    | Declarative routing for React.js.                          |
+| Axios                                      | ^1.6.2    | A promise-based HTTP client for the browser and Node.js.  |
+| Redux Thunk                                | ^2.4.2    | Middleware for Redux allowing asynchronous logic.         |
+| Styled Components                          | ^6.1.1    | A CSS-in-JS library for styling React components.          |
+| Chart.js                                   | 4.3.0     | A flexible JavaScript charting library.                    |
+| React Table                                | 7.8.0     | A lightweight, fast, and extendable data grid for React.   |
+| Yup                                        | 1.1.1     | A JavaScript schema builder for validation.                |
+| React Quill                                | ^2.0.0    | A React wrapper for the Quill rich text editor.           |
+| Dayjs                                      | ^1.11.10  | A minimalist JavaScript library for dates.                 |
+| Yet Another React Lightbox                 | ^3.15.6   | A responsive image lightbox component for React.           |
+| React Reveal                               | ^1.2.2    | An animation library for React.                            |
+| React GitHub Button                        | 1.4.0     | A React component for embedding GitHub buttons.            |
+| Chroma.js                                  | 2.4.2     | A JavaScript library for handling color.                   |
+| DOMPurify                                  | ^3.0.6    | A library for HTML sanitization to prevent XSS attacks.    |
+| @Mui/X-Date-Pickers                       | ^6.18.4   | Material-UI components for date pickers.                   |
+| Web Vitals                                 | ^2.1.0    | A library for measuring web performance metrics.           |
+| Testing Libraries (Jest and Testing Library)| Various   | Libraries for testing JavaScript and React applications.   |
+| Emotion                                    | 11.10.8   | A CSS-in-JS library for styling React components.          |
+| Eslint                                    | Various   | A linting tool for identifying patterns in JavaScript code. |
+| Browserslist                               | -         | A config to share target browsers between different tools. |
+| React Scripts                              | 5.0.1     | Scripts and configurations used by Create React App.       |
+| Prop Types                                 | 15.8.1    | Runtime type checking for React props.                     |
+| Stylis                                     | 4.1.4     | A CSS preprocessor.                                       |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🍼 How It Works
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Dashboard Insights:**
+   - Instantly view project summaries, pending tasks, and upcoming deadlines for effective project oversight.
 
-### `yarn eject`
+2. **Task Management:**
+   - Create, assign, and monitor tasks, promoting transparency and accountability within your team.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Bug Reporting Made Simple:**
+   - Streamline the bug reporting process, ensuring quick identification and resolution.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Efficient File Storage:**
+   - Easily upload and organize project files, ensuring everyone has access to the latest documents.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Visualize Progress:**
+   - Track project activities visually, turning progress into an engaging and insightful experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧊 Why Choose Our Project Management Application?
 
-## Learn More
+- **User-Friendly Interface:**
+  - Navigate through the application effortlessly, making project management a breeze for everyone.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Efficiency Boost:**
+  - Increase productivity and reduce development time with our carefully crafted features.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Reliability:**
+  - Rely on our robust backend and frontend technologies, including NodeJS, Apollo GraphQL, and ReactJS.
 
-### Code Splitting
+- **Enhanced User Experience:**
+  - Our focus on bug reduction and system optimization leads to a 40% increase in user retention and satisfaction.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔬 Get Started
 
-### Analyzing the Bundle Size
+Ready to take your project management to the next level? Sign up today and experience the difference our Project Management Application can make in streamlining your workflow.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Sign Up Now](https://assign-project.onrender.com/register)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠️ Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-### Advanced Configuration
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- npm (comes with Node.js) or yarn (Recommended: [Yarn](https://yarnpkg.com/))
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⭐ Environment Variables
+To run the project locally, you need to set up the following environment variables. Create a `.env` file in the root of your project and add the following:
 
-### Deployment
+```env
+REACT_APP_BACKEND_URL=http://localhost:3001/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+## 📦 Installation
+1. **Clone the repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/abhishekprajapati29/assign-project.git
+   ```
+   
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd assign-project/client
+   ```
+   
+3. **Install dependencies:**
+
+   ```bash
+   npm install   # or yarn install
+   ```
+   
+4. **Start the development server:**
+
+   ```bash
+   npm start     # or yarn start
+   ```
+    
+7. **Deployment:**
+   To deploy your website, first you need to create github repository with name `<your-github-username>.github.io` and push the generated code to the `main` branch.
+
+
+## 🪒 Layouts
+
+- **Dashboard Layouts**
+  - `MainDashboard`: Main dashboard layout for authenticated users.
+  - `Dashboard`: Dashboard layout for individual projects.
+
+- **Authentication Layouts**
+  - `SignIn`: Layout for user sign-in.
+  - `SignUp`: Layout for user sign-up.
+
+- **Project Layouts**
+  - `HomePage`: Layout for the home page.
+  - `ProjectView`: Layout for viewing projects.
+  - `Task`: Layout for managing tasks.
+  - `Bug`: Layout for managing bugs.
+  - `TaskView`: Layout for viewing task details.
+  - `MemberTable`: Layout for managing project members.
+  - `SettingOverview`: Layout for project settings.
+  - `ProjectCreateForm`: Layout for creating a new project.
+  - `TaskForm`: Layout for managing tasks within a project.
+  - `TaskCreateForm`: Layout for creating a new task within a project.
+  - `Files`: Layout for managing project files.
+  - `Invites`: Layout for managing project invites.
+
+- **Profile Layout**
+  - `Profile`: Layout for user profile.
+
+- **Miscellaneous Layouts**
+  - `HomePage`: Layout for the home page.
+
+## 🚍 Icons
+
+- `Icon`: Icon component for rendering Material-UI icons.
+
+## 📜 Routes
+
+The `routes` array contains configurations for different routes in the application. Each route object has the following properties:
+
+- `type`: Describes the type of route (collapse, title, divider).
+- `name`: Name of the route or title.
+- `key`: Unique key for the route.
+- `icon`: Material-UI icon component.
+- `isAuth`: Boolean indicating whether authentication is required.
+- `isProject`: Boolean indicating whether the route is related to a project.
+- `route`: The route location for React Router.
+- `href`: External link location.
+- `title`: Title text for the Sidenav.
+- `component`: React component associated with the route.
+
+## ✨ Components
+
+- Various components used throughout the application.
+
+## 🧪 How to Add a New Route
+
+To add a new route, follow the existing routes in the `routes` array. Use the provided keys like `type`, `name`, `key`, `icon`, etc. Make sure to specify the `component` property with the associated React component.
+
+Feel free to adjust the project structure based on specific requirements.
+
+
+## 🚶 Contributing
+
+Feel free to contribute to this project! Whether it's reporting bugs, suggesting enhancements, or adding new features, your contributions are welcome. Please follow the [contribution guidelines](CONTRIBUTING.md).
+
+### 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for visiting my portfolio! If you have any questions or suggestions, feel free to reach out.
