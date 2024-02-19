@@ -25,7 +25,7 @@ exports.project_request_users = async (req, res, next) => {
   }).populate("userProfileId");
 
   const filteredData = requestUserLists?.filter(
-    (fil) => fil.userProfileId.blockRequest === false
+    (fil) => fil.userProfileId?.blockRequest === false
   );
 
   const requestedUsers = await Project.findById(projectId).select(
