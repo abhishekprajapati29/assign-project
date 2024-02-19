@@ -68,8 +68,9 @@ const __dirname1 = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname1, "client/build")));
-  console.log(req.get('host'));
+  
   app.get("*", (req, res) => {
+    console.log(req.get('host'));
     if (req.get('host') === "www.assign-project.onrender.com") {
       const fileDir = __dirname1.split("/").pop();
       console.log(fileDir);
