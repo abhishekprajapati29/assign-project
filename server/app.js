@@ -53,25 +53,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// Deployment
-
-const __dirname1 = path.resolve();
-
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname1, "client/build")));
-
-  app.get("*", (req, res) => {
-    console.log(path.resolve(__dirname1, "client", "build", "index.html"), path.join(__dirname1, "client/build"));
-    if (req.get('host') === "www.assign-project.onrender.com") {
-      res.sendFile(path.resolve(__dirname1, "client", "build", "index.html"))
-    }
-  });
-} else {
-  app.get("/", (req, res) => {
-    res.send("API is running..");
-  });
-}
-
 // Routes which should handle requests
 
 app.use("/user", userRoutes);
@@ -80,6 +61,22 @@ app.use("/file", fileRoutes);
 app.use("/project", projectRoutes);
 app.use("/notification", notificationRoutes);
 app.use("/dashboard", dashboardRoutes);
+
+// Deployment
+
+const __dirname1 = path.resolve();
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname1, "client/build")));
+  console.log(req.get('host'));
+  app.get("*", (req, res) => {
+    if (req.get('host') === "www.assign-project.onrender.com") {
+      const fileDir = __dirname1.split("/").pop();
+      console.log(fileDir);
+      res.sendFile(path.resolve(fileDir, "client", "build", "index.html"))
+    }
+  });
+} 
 
 app.use((req, res, next) => {
   const error = new Error("Not found");
