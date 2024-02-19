@@ -62,7 +62,7 @@ if (process.env.NODE_ENV === "production") {
 
   app.get("*", (req, res) =>
     console.log(path.resolve(__dirname1, "client", "build", "index.html"), path.join(__dirname1, "client/build"));
-    if (req.get('host') === "assign-project.onrender.com") {
+    if (req.get('host') === "www.assign-project.onrender.com") {
       res.sendFile(path.resolve(__dirname1, "client", "build", "index.html"))
     }
   );
